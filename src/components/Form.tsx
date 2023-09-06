@@ -27,6 +27,7 @@ const Form = (props: {
 		} else {
 			props.setPeopleError("");
 		}
+		// eslint-disable-next-line
 	}, [props.people]);
 
 	const handleTipCalc = (tip: number): number | undefined => {
