@@ -1,5 +1,3 @@
-import { isClassDeclaration } from "typescript";
-
 const Results = (props: {
 	tip: number;
 	totalAmount: number | string;
